@@ -7,8 +7,7 @@ const saveThmToLS = (event) => {
 
 const getThmFromLS = () => {
     const darkTheme = localStorage.getItem('theme');
-    console.log(darkTheme)
-    themeSwitcherRef.checked = JSON.parse(darkTheme);
+     themeSwitcherRef.checked = JSON.parse(darkTheme);
     if (darkTheme) {
         if (themeSwitcherRef.checked)
             bodyRef.classList.add('dark-theme'); 
