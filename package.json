@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://dartena.github.io/goit-js-hw-10-food-service",
+  "homepage": "https://dartena.github.io/goit-js-hw-10-food-service/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
@@ -26,6 +26,5 @@
     "sass": "^1.32.8",
     "handlebars": "^4.7.7"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
